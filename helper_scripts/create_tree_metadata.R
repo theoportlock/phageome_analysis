@@ -1,3 +1,5 @@
+#!/bin/Rscript
+
 library(data.table)
 library(dplyr)
 library(openxlsx)

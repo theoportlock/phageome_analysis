@@ -1,5 +1,10 @@
 # Analysis for oral/gut phageome
 
+## Install packages with the following command
+'''bash
+while read i; do Rscript -e install.packages($i); done < requirements.txt
+'''
+
 ### Creating phage catalogue and quantification
 
 ##### Step 1: helper_scripts/create_catalogue_dataset.R
