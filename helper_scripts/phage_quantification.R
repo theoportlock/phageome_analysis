@@ -14,7 +14,7 @@ vir_counts = read.table("../data/bowtie2_read_counts.txt", header=TRUE, row.name
 vir_coverage = read.table("../data/breadth_cov_collated.tbl", header=TRUE, row.names = 1, check.names = FALSE)
 
 #Remove unwanted samples
-vir_counts <- vir_counts[,names(vir_counts) %in%  metadata$ID]
+vir_counts <- vir_counts[,names(vir_counts) %in% metadata$ID]
 vir_coverage <- vir_coverage[,names(vir_coverage) %in% metadata$ID]
 
 #Remove unwanted contigs

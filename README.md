@@ -1,9 +1,18 @@
 # Analysis for oral/gut phageome
 
 ## Install packages with the following command
-```bash
-while read i; do Rscript -e install.packages($i); done < requirements.txt
+For R packages:
 ```
+while read i; do Rscript -e "install.packages(\"$i\", repos=\"https://cloud.r-project.org\")"; done < R_requirements.txt
+```
+
+For python packages:
+```
+pip install -r python_requirements.txt
+```
+
+
+For python packages:
 
 ### Creating phage catalogue and quantification
 
