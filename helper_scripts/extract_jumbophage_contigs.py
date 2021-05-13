@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from Bio import SeqIO
 import os
 input_fasta = "../data/virsorter_positive.fasta"

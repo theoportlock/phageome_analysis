@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 fin = '../data/jumbophage_trna.tab'
 fout = '../data/jumbophage_trna_clean.tab'
 

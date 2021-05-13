@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from Bio import SeqIO
 import os
 file = "../data/circular_jumbo_phage_genomes_RAST.gbk"

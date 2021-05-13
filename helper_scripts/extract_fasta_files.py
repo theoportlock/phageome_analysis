@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from Bio import SeqIO
 import os
 file = "../data/megaphage_contigs.fasta"
