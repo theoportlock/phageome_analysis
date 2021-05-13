@@ -1,9 +1,9 @@
 # Analysis for oral/gut phageome
 
 ## Install packages with the following command
-'''bash
+```bash
 while read i; do Rscript -e install.packages($i); done < requirements.txt
-'''
+```
 
 ### Creating phage catalogue and quantification
 
