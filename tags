@@ -1,0 +1,529 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/theo/postdoc/victoriaproj/phageome_analysis/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+Analysis for oral/gut phageome	README.md	/^# Analysis for oral\/gut phageome$/;"	c
+Creating phage catalogue and quantification	README.md	/^### Creating phage catalogue and quantification$/;"	S	section:Analysis for oral/gut phageome""Install packages with the following command
+Install packages with the following command	README.md	/^## Install packages with the following command$/;"	s	chapter:Analysis for oral/gut phageome
+Step 1: helper_scripts/create_catalogue_dataset.R	README.md	/^##### Step 1: helper_scripts\/create_catalogue_dataset.R$/;"	T	subsection:Analysis for oral/gut phageome""Install packages with the following command""Creating phage catalogue and quantification
+Step 2: helper_scripts/get_candidate_jumbophages.R	README.md	/^##### Step 2: helper_scripts\/get_candidate_jumbophages.R$/;"	T	subsection:Analysis for oral/gut phageome""Install packages with the following command""Creating phage catalogue and quantification
+Step 3: helper_scripts/collate_functional_annotations.R	README.md	/^##### Step 3: helper_scripts\/collate_functional_annotations.R$/;"	T	subsection:Analysis for oral/gut phageome""Install packages with the following command""Creating phage catalogue and quantification
+Step 4: helper_scripts/phage_quantification.R	README.md	/^##### Step 4: helper_scripts\/phage_quantification.R$/;"	T	subsection:Analysis for oral/gut phageome""Install packages with the following command""Creating phage catalogue and quantification
+abund_genera	phage_analysis.R	/^abund_genera <- c("Eubacterium", "Haemophilus", "Prevotella", "Streptococcus", "Veillonella")$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+abund_ind	phage_analysis.R	/^abund_ind <- c()$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+accuracyRF	phage_analysis.R	/^accuracyRF <- as.data.frame(confusionMatrix(crisprhostRF)[,colnames(confusionMatrix(crisprhostRF/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+alignment_results_filtered	helper_scripts/collate_functional_annotations.R	/^  alignment_results_filtered <- alignment_results %>% $/;"	v	function:filterBySmallestEvalue
+all_args	phage_analysis.R	/^all_args <- read.csv("data\/all_assemblies_card_90.csv", stringsAsFactors = FALSE)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+alshayeb_files	helper_scripts/get_MCPs.py	/^alshayeb_files = [alshayeb_folder + f for f in listdir(alshayeb_folder)]$/;"	v
+alshayeb_folder	helper_scripts/get_MCPs.py	/^alshayeb_folder = "..\/data\/alshayeb\/major_capsid_protein_phages\/"$/;"	v
+anonFunc50a7fb0d0104	phage_analysis.R	/^  leg <- which(sapply(tmp$grobs, function(x) x$name) == "guide-box")$/;"	v	functionVar:createPairedData.g_legend
+anonFunc50a7fb0d0204	phage_analysis.R	/^metadata$n_contigs <- sapply(metadata$ID, function(x) length(which(vir_counts_prop_melt$Var2 == /;"	v	function:createPairedData
+anonFunc50a7fb0d0304	phage_analysis.R	/^            hclustfun = function(x) {hclust(x, method = "ward.D2")},$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d0404	phage_analysis.R	/^df_cluster_samples_nmds$Sample.name <- as.character(sapply(df_cluster_samples_nmds$ID, function(/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d0504	phage_analysis.R	/^df_cluster_samples_nmds$Location <- sapply(df_cluster_samples_nmds$ID, function(x) metadata$Loca/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d0604	phage_analysis.R	/^df_cluster_samples_nmds$sample_type <- sapply(df_cluster_samples_nmds$ID, function(x) metadata$s/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d0704	phage_analysis.R	/^df_cluster_samples_nmds$Age <- sapply(df_cluster_samples_nmds$ID, function(x) metadata$Age[metad/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d0804	phage_analysis.R	/^df_cluster_samples_nmds$Sex <- sapply(df_cluster_samples_nmds$ID, function(x) metadata$Sex[metad/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d0904	phage_analysis.R	/^clusters_samples_kw = apply(vir_counts_prop_agg_meta, 1, function(x) kruskal.test(x, df_cluster_/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d0a04	phage_analysis.R	/^                                                function(x) names(which.max(table(contig_data[wh/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d0b04	phage_analysis.R	/^          hclustfun = function(x) {hclust(x, method = "ward.D2")},$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d0c04	phage_analysis.R	/^          RowSideColors = unlist(sapply(viral_clusters_df[rownames(viral_clusters_df) %in% rowna/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d0d04	phage_analysis.R	/^vir_group_list <- sapply(unique_clusters, function(x) {$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d0e04	phage_analysis.R	/^max_group_length <- max(sapply(vir_group_list, function(x) length(x)))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d0f04	phage_analysis.R	/^vir_group_list <- lapply(vir_group_list, function(x) c(x, rep(NA, max_group_length - length(x)))/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1004	phage_analysis.R	/^cluster_count_tp <- map_df(.x = unique(cluster_no_tp$no_tp), .f = function(.x) {$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1104	phage_analysis.R	/^  df_nmds_persist$Sample.name <- as.character(sapply(df_nmds_persist$ID, function(x) metadata$Sa/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1204	phage_analysis.R	/^  df_nmds_persist$Location <- sapply(df_nmds_persist$ID, function(x) metadata$Location[metadata$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1304	phage_analysis.R	/^  persist_sample <- data.frame(Sample.name = sapply(rownames(cluster_persist_cast), function(x) /;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1404	phage_analysis.R	/^  df_nmds_transient$Sample.name <- as.character(sapply(df_nmds_transient$ID, function(x) metadat/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1504	phage_analysis.R	/^  df_nmds_transient$Location <- sapply(df_nmds_transient$ID, function(x) metadata$Location[metad/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1604	phage_analysis.R	/^  transient_sample <- data.frame(Sample.name = sapply(rownames(cluster_transient_cast), function/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1704	phage_analysis.R	/^          hclustfun = function(x) {hclust(x, method = "ward.D2")},$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1804	phage_analysis.R	/^          labRow = as.expression(lapply(rownames(vir_counts_prop_agg2_log), function(a) bquote(i/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1904	phage_analysis.R	/^          hclustfun = function(x) {hclust(x, method = "ward.D2")},$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1a04	phage_analysis.R	/^          labRow = as.expression(lapply(rownames(metaphlan_host_log), function(a) bquote(italic(/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1b04	phage_analysis.R	/^          hclustfun = function(x) {hclust(x, method = "ward.D2")},$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1c04	phage_analysis.R	/^          labRow=as.expression(lapply(rownames(metaphlan_abund_log), function(a) bquote(italic(./;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1d04	phage_analysis.R	/^richness$n_phage_contigs <- sapply(richness$ID, function(x) length(which(vir_counts_prop_melt$Va/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1e04	phage_analysis.R	/^legend('bottomleft',legend=as.expression(lapply(unique(sort(names(vertex_host))), function(a) bq/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d1f04	phage_analysis.R	/^jumbophage_fun_df$crispr_host <- as.character(sapply(rownames(jumbophage_fun_df), function(x) $/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d2004	phage_analysis.R	/^rowLabels <- sapply(rownames(crisprhostRF_sig_imp_gen), function(x) unique(jumbophage_gff$protei/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d2104	phage_analysis.R	/^          hclustfun = function(x) {hclust(x, method = "ward.D2")},$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFunc50a7fb0d2204	phage_analysis.R	/^                                                 function(.x) {$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+anonFuncab867cde0103	helper_scripts/phage_quantification.R	/^vir_counts_prop = apply(vir_counts, 2, function(x) x\/sum(x))$/;"	f
+anonFuncab867cde0203	helper_scripts/phage_quantification.R	/^vir_counts_prop = vir_counts_prop[-which(apply(vir_counts_prop, 1, function(x) all(x == 0))),]$/;"	f
+anonFuncda0b845e0103	helper_scripts/create_tree_metadata.R	/^jumbo_mcp_meta_edit$environment_cols <- sapply(jumbo_mcp_meta_edit$environment, function(x) envi/;"	f
+anonFuncda0b845e0203	helper_scripts/create_tree_metadata.R	/^jumbo_mcp_meta_edit$host_cols <- sapply(jumbo_mcp_meta_edit$host, function(x) host_cols[x])$/;"	f
+anonFuncda0b845e0303	helper_scripts/create_tree_metadata.R	/^jumbo_mcp_meta_edit$study_cols <- sapply(jumbo_mcp_meta_edit$study, function(x) study_cols[x])$/;"	f
+anonFuncda0b845e0403	helper_scripts/create_tree_metadata.R	/^jumbo_mcp_meta_edit$vcontact_cluster[jumbo_mcp_meta_edit$study == "This study"] <- sapply(jumbo_/;"	f
+anonFuncda0b845e0503	helper_scripts/create_tree_metadata.R	/^jumbo_mcp_meta_edit$cluster_cols[!is.na(jumbo_mcp_meta_edit$vcontact_cluster)] <- sapply(jumbo_m/;"	f
+asterisk	phage_analysis.R	/^  asterisk <- rep(NA, length(p_values))$/;"	v	functionVar:createPairedData.runTtest
+avg_sil	phage_analysis.R	/^avg_sil <- numeric(20)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+avg_sil_check	phage_analysis.R	/^avg_sil_check <- numeric(20)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+by	helper_scripts/phage_quantification.R	/^vir_counts_prop_melt_agg = vir_counts_prop_melt[, sum(value), by=.(Var2, demovir, vcontact_clust/;"	g
+by	phage_analysis.R	/^vir_counts_prop_melt_agg3 = vir_counts_prop_melt_agg[, sum(V1), by=.(Var2, vcontact_cluster, sam/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cexCol	phage_analysis.R	/^            cexCol = 0.5,$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cexRow	phage_analysis.R	/^            cexRow = 0.5,$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+circular	helper_scripts/create_catalogue_dataset.R	/^circular = read.table("..\/data\/circular_contigs.ids", header=FALSE)$/;"	g
+circular_jumbophages	phage_analysis.R	/^circular_jumbophages <- unique(jumbophage_contigs_meta_circ$name[order(jumbophage_contigs_meta_c/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+clipPath1	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M0 0 L1531 0 L1531 830 L0 830 L0 0 Z"$/;"	d
+clipPath1	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M0 0 L1531 0 L1531 830 L0 830 L0 0 Z"$/;"	i
+clipPath10	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-396.5128 -146.0282 L-396.5128 260.0845 L353.4974 260.0845 L353.4974 -146.0282 /;"	d
+clipPath10	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-396.5128 -146.0282 L-396.5128 260.0845 L353.4974 260.0845 L353.4974 -146.0282 /;"	i
+clipPath11	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-414.0547 -175.9772 L-414.0547 230.1354 L335.9554 230.1354 L335.9554 -175.9772 /;"	d
+clipPath11	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-414.0547 -175.9772 L-414.0547 230.1354 L335.9554 230.1354 L335.9554 -175.9772 /;"	i
+clipPath12	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-302.2673 -177.2284 L-302.2673 228.8842 L447.7429 228.8842 L447.7429 -177.2284 /;"	d
+clipPath12	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-302.2673 -177.2284 L-302.2673 228.8842 L447.7429 228.8842 L447.7429 -177.2284 /;"	i
+clipPath13	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-322.6181 -148.3324 L-322.6181 257.7802 L427.3921 257.7802 L427.3921 -148.3324 /;"	d
+clipPath13	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-322.6181 -148.3324 L-322.6181 257.7802 L427.3921 257.7802 L427.3921 -148.3324 /;"	i
+clipPath14	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1254.3359 0 L276.6641 0 L276.6641 830 L-1254.3359 830 L-1254.3359 0 Z"$/;"	d
+clipPath14	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1254.3359 0 L276.6641 0 L276.6641 830 L-1254.3359 830 L-1254.3359 0 Z"$/;"	i
+clipPath15	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -5 L250.4648 -5 L250.4648 825 L-1280.5352 825 L-1280.5352 -5 Z"$/;"	d
+clipPath15	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -5 L250.4648 -5 L250.4648 825 L-1280.5352 825 L-1280.5352 -5 Z"$/;"	i
+clipPath16	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -5 L271.6641 -5 L271.6641 825 L-1259.3359 825 L-1259.3359 -5 Z"$/;"	d
+clipPath16	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -5 L271.6641 -5 L271.6641 825 L-1259.3359 825 L-1259.3359 -5 Z"$/;"	i
+clipPath17	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -26.1992 L250.4648 -26.1992 L250.4648 803.8008 L-1280.5352 803.8008 /;"	d
+clipPath17	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -26.1992 L250.4648 -26.1992 L250.4648 803.8008 L-1280.5352 803.8008 /;"	i
+clipPath18	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -26.1992 L271.6641 -26.1992 L271.6641 803.8008 L-1259.3359 803.8008 /;"	d
+clipPath18	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -26.1992 L271.6641 -26.1992 L271.6641 803.8008 L-1259.3359 803.8008 /;"	i
+clipPath19	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -47.3984 L250.4648 -47.3984 L250.4648 782.6016 L-1280.5352 782.6016 /;"	d
+clipPath19	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -47.3984 L250.4648 -47.3984 L250.4648 782.6016 L-1280.5352 782.6016 /;"	i
+clipPath2	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-374.6715 -206.6549 L-374.6715 199.4577 L375.3387 199.4577 L375.3387 -206.6549 /;"	d
+clipPath2	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-374.6715 -206.6549 L-374.6715 199.4577 L375.3387 199.4577 L375.3387 -206.6549 /;"	i
+clipPath20	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -47.3984 L271.6641 -47.3984 L271.6641 782.6016 L-1259.3359 782.6016 /;"	d
+clipPath20	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -47.3984 L271.6641 -47.3984 L271.6641 782.6016 L-1259.3359 782.6016 /;"	i
+clipPath21	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -68.5977 L250.4648 -68.5977 L250.4648 761.4023 L-1280.5352 761.4023 /;"	d
+clipPath21	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -68.5977 L250.4648 -68.5977 L250.4648 761.4023 L-1280.5352 761.4023 /;"	i
+clipPath22	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -68.5977 L271.6641 -68.5977 L271.6641 761.4023 L-1259.3359 761.4023 /;"	d
+clipPath22	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -68.5977 L271.6641 -68.5977 L271.6641 761.4023 L-1259.3359 761.4023 /;"	i
+clipPath23	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -89.7969 L250.4648 -89.7969 L250.4648 740.2031 L-1280.5352 740.2031 /;"	d
+clipPath23	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -89.7969 L250.4648 -89.7969 L250.4648 740.2031 L-1280.5352 740.2031 /;"	i
+clipPath24	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -89.7969 L271.6641 -89.7969 L271.6641 740.2031 L-1259.3359 740.2031 /;"	d
+clipPath24	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -89.7969 L271.6641 -89.7969 L271.6641 740.2031 L-1259.3359 740.2031 /;"	i
+clipPath25	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -110.9961 L250.4648 -110.9961 L250.4648 719.0039 L-1280.5352 719.003/;"	d
+clipPath25	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -110.9961 L250.4648 -110.9961 L250.4648 719.0039 L-1280.5352 719.003/;"	i
+clipPath26	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -110.9961 L271.6641 -110.9961 L271.6641 719.0039 L-1259.3359 719.003/;"	d
+clipPath26	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -110.9961 L271.6641 -110.9961 L271.6641 719.0039 L-1259.3359 719.003/;"	i
+clipPath27	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -132.1953 L250.4648 -132.1953 L250.4648 697.8047 L-1280.5352 697.804/;"	d
+clipPath27	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -132.1953 L250.4648 -132.1953 L250.4648 697.8047 L-1280.5352 697.804/;"	i
+clipPath28	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -132.1953 L271.6641 -132.1953 L271.6641 697.8047 L-1259.3359 697.804/;"	d
+clipPath28	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -132.1953 L271.6641 -132.1953 L271.6641 697.8047 L-1259.3359 697.804/;"	i
+clipPath29	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -153.3945 L250.4648 -153.3945 L250.4648 676.6055 L-1280.5352 676.605/;"	d
+clipPath29	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -153.3945 L250.4648 -153.3945 L250.4648 676.6055 L-1280.5352 676.605/;"	i
+clipPath3	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-419.177 -210.0165 L-419.177 196.0961 L330.8332 196.0961 L330.8332 -210.0165 Z"$/;"	d
+clipPath3	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-419.177 -210.0165 L-419.177 196.0961 L330.8332 196.0961 L330.8332 -210.0165 Z"$/;"	i
+clipPath30	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -153.3945 L271.6641 -153.3945 L271.6641 676.6055 L-1259.3359 676.605/;"	d
+clipPath30	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -153.3945 L271.6641 -153.3945 L271.6641 676.6055 L-1259.3359 676.605/;"	i
+clipPath31	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -174.5938 L250.4648 -174.5938 L250.4648 655.4062 L-1280.5352 655.406/;"	d
+clipPath31	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1280.5352 -174.5938 L250.4648 -174.5938 L250.4648 655.4062 L-1280.5352 655.406/;"	i
+clipPath32	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -174.5938 L271.6641 -174.5938 L271.6641 655.4062 L-1259.3359 655.406/;"	d
+clipPath32	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-1259.3359 -174.5938 L271.6641 -174.5938 L271.6641 655.4062 L-1259.3359 655.406/;"	i
+clipPath4	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-405.8019 -242.0477 L-405.8019 164.065 L344.2083 164.065 L344.2083 -242.0477 Z"$/;"	d
+clipPath4	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-405.8019 -242.0477 L-405.8019 164.065 L344.2083 164.065 L344.2083 -242.0477 Z"$/;"	i
+clipPath5	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-378.0564 -266.1205 L-378.0564 139.9922 L371.9538 139.9922 L371.9538 -266.1205 /;"	d
+clipPath5	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-378.0564 -266.1205 L-378.0564 139.9922 L371.9538 139.9922 L371.9538 -266.1205 /;"	i
+clipPath6	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-340.1424 -266.8054 L-340.1424 139.3073 L409.8678 139.3073 L409.8678 -266.8054 /;"	d
+clipPath6	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-340.1424 -266.8054 L-340.1424 139.3073 L409.8678 139.3073 L409.8678 -266.8054 /;"	i
+clipPath7	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-311.8542 -243.1676 L-311.8542 162.945 L438.156 162.945 L438.156 -243.1676 Z"$/;"	d
+clipPath7	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-311.8542 -243.1676 L-311.8542 162.945 L438.156 162.945 L438.156 -243.1676 Z"$/;"	i
+clipPath8	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-297.9098 -211.3511 L-297.9098 194.7615 L452.1004 194.7615 L452.1004 -211.3511 /;"	d
+clipPath8	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-297.9098 -211.3511 L-297.9098 194.7615 L452.1004 194.7615 L452.1004 -211.3511 /;"	i
+clipPath9	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-363.4215 -129.2934 L-363.4215 276.8192 L386.5887 276.8192 L386.5887 -129.2934 /;"	d
+clipPath9	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^      ><path d="M-363.4215 -129.2934 L-363.4215 276.8192 L386.5887 276.8192 L386.5887 -129.2934 /;"	i
+cluster	helper_scripts/extract_fasta_files.py	/^cluster = "VC_1419_6"$/;"	v
+cluster_all	phage_analysis.R	/^cluster_all <- rbind(cluster_persist_all, cluster_transient_all)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_all_summary	phage_analysis.R	/^cluster_all_summary <- vir_counts_longus %>% group_by(sample_type, Sample.name) %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_cols	helper_scripts/create_tree_metadata.R	/^cluster_cols <- colorRampPalette(brewer.pal(12, "Set3"))(length(unique(jumbo_mcp_meta_edit$vcont/;"	g
+cluster_count_reads	phage_analysis.R	/^cluster_count_reads<- vir_counts_longus %>% $/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_count_reads_summary	phage_analysis.R	/^cluster_count_reads_summary <- left_join(cluster_count_reads, cluster_count_reads_tp1, by = c("s/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_count_reads_tp1	phage_analysis.R	/^cluster_count_reads_tp1 <- cluster_count_reads %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_count_tp	phage_analysis.R	/^cluster_count_tp <- map_df(.x = unique(cluster_no_tp$no_tp), .f = function(.x) {$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_count_tp_summary	phage_analysis.R	/^cluster_count_tp_summary <- cluster_count_tp %>% group_by(sample_type, Sample.name, tp) %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_no_tp	phage_analysis.R	/^cluster_no_tp <- vir_counts_longus %>% group_by(sample_type, Sample.name, vcontact_cluster) %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_one	phage_analysis.R	/^cluster_one <- cluster_count_tp_summary %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_persist	phage_analysis.R	/^  cluster_persist <- left_join(vir_counts_longus_demovir, cluster_no_tp, by = c("sample_type", "/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_persist_all	phage_analysis.R	/^cluster_persist_all <- data.frame()$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_persist_cast	phage_analysis.R	/^  cluster_persist_cast <- dcast(cluster_persist, ID ~ vcontact_cluster, sum, value.var = "V1") $/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_persist_demovir	phage_analysis.R	/^cluster_persist_demovir <- cluster_persist_all %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_persist_n	phage_analysis.R	/^cluster_persist_n <- cluster_persist_demovir %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_persist_others	phage_analysis.R	/^    cluster_persist_others <- unique(cluster_persist$vcontact_cluster[cluster_persist$Sample.nam/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_persist_sample	phage_analysis.R	/^    cluster_persist_sample <- unique(cluster_persist$vcontact_cluster[cluster_persist$Sample.nam/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_persist_sharing	phage_analysis.R	/^  cluster_persist_sharing <- rep(NA, length(sample_names))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_ranks	phage_analysis.R	/^cluster_ranks <- data.frame()$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_res	phage_analysis.R	/^cluster_res <- df_cluster_samples_nmds %>% $/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_sample_type	phage_analysis.R	/^  cluster_sample_type <- cluster_summary_melt[cluster_summary_melt$sample_type == unique(cluster/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_samples_nmds	phage_analysis.R	/^cluster_samples_nmds <- metaMDS(t(vir_counts_prop_agg_meta), distance = "bray", k = 2, trymax = /;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_samples_raw	phage_analysis.R	/^cluster_samples_raw <- vegdist(t(vir_counts_prop_agg_meta))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_sharing_stats	phage_analysis.R	/^cluster_sharing_stats <- data.frame()$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_site	phage_analysis.R	/^cluster_site <- cluster_res %>% $/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_summary	phage_analysis.R	/^cluster_summary <- cluster_no_tp %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_summary_graphs	phage_analysis.R	/^cluster_summary_graphs <- list()$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_summary_melt	phage_analysis.R	/^cluster_summary_melt <- rbind(data.frame(sample_type = cluster_summary$sample_type, vcontact_clu/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_transient	phage_analysis.R	/^  cluster_transient <- left_join(vir_counts_longus_demovir, cluster_no_tp, by = c("sample_type",/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_transient_all	phage_analysis.R	/^cluster_transient_all <- data.frame()$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_transient_cast	phage_analysis.R	/^  cluster_transient_cast <- dcast(cluster_transient, ID ~ vcontact_cluster, sum, value.var = "V1/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_transient_demovir	phage_analysis.R	/^cluster_transient_demovir <- cluster_transient_all %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_transient_n	phage_analysis.R	/^cluster_transient_n <- cluster_transient_demovir %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_transient_others	phage_analysis.R	/^    cluster_transient_others <- unique(cluster_transient$vcontact_cluster[cluster_transient$Samp/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_transient_sample	phage_analysis.R	/^    cluster_transient_sample <- unique(cluster_transient$vcontact_cluster[cluster_transient$Samp/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cluster_transient_sharing	phage_analysis.R	/^  cluster_transient_sharing <- rep(NA, length(sample_names))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+clusters_samples_kw	phage_analysis.R	/^clusters_samples_kw = apply(vir_counts_prop_agg_meta, 1, function(x) kruskal.test(x, df_cluster_/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+cohort_cols	phage_analysis.R	/^cohort_cols <- c("grey", brewer.pal(9, "Blues")[c(5,7)], "gold", brewer.pal(9, "YlOrRd")[c(5,7)]/;"	v	function:createPairedData
+cols	helper_scripts/create_tree_metadata.R	/^cols <- plasma(length(unique(metadata$sample_type)), end = 0.8)$/;"	g
+cols	phage_analysis.R	/^cols <- plasma(length(unique(metadata$sample_type)), end = 0.8)$/;"	v	function:createPairedData
+comb_gff	phage_analysis.R	/^comb_gff <- rbind(jumbophage_gff, trna_gff)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+contig_data	helper_scripts/collate_functional_annotations.R	/^contig_data <- readRDS("..\/data\/contig_data.RDS")$/;"	g
+contig_data	helper_scripts/create_catalogue_dataset.R	/^contig_data = data.frame($/;"	g
+contig_data	helper_scripts/get_candidate_jumbophages.R	/^contig_data <- readRDS("..\/data\/contig_data.RDS")$/;"	g
+contig_data	helper_scripts/phage_quantification.R	/^contig_data <- readRDS("..\/data\/contig_data_filtered.RDS")$/;"	g
+contig_data	phage_analysis.R	/^contig_data <- readRDS("data\/contig_data_filtered_final.RDS")$/;"	v	function:createPairedData
+contig_data_filtered	helper_scripts/collate_functional_annotations.R	/^contig_data_filtered <- contig_data[contig_data$name %in% c(jumbophage_contigs$name, contig_data/;"	g
+contig_data_final	helper_scripts/phage_quantification.R	/^contig_data_final <- contig_data[contig_data$name %in% vir_counts_prop_melt$Var1,]$/;"	g
+contig_data_meta	phage_analysis.R	/^contig_data_meta <- left_join(vir_counts_prop_melt, metadata, by = c("Var2"="ID","sample_type","/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+contig_ids	helper_scripts/create_catalogue_dataset.R	/^contig_ids = read.table("..\/data\/virsorter_positive.ids")$/;"	g
+count	helper_scripts/get_MCPs.py	/^    count = 1$/;"	v
+count	helper_scripts/get_MCPs.py	/^    count = 1;$/;"	v
+counts_total	helper_scripts/phage_quantification.R	/^counts_total = vir_counts["Total_reads",]$/;"	g
+counts_total	phage_analysis.R	/^counts_total <- readRDS("data\/counts_total.RDS")$/;"	v	function:createPairedData
+crasslike	helper_scripts/create_catalogue_dataset.R	/^crasslike = read.table("..\/data\/crasslike_annot.txt", sep = "\\t", header=FALSE)$/;"	g
+createPairedData	phage_analysis.R	/^createPairedData <- function(df_meta, pair_list){$/;"	f
+crispr_bitscore_cutoff	helper_scripts/create_catalogue_dataset.R	/^crispr_bitscore_cutoff = 45$/;"	g
+crispr_cols	phage_analysis.R	/^crispr_cols <- brewer.pal(12, "Set3")$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+crispr_evalue_cutoff	helper_scripts/create_catalogue_dataset.R	/^crispr_evalue_cutoff = 1E-05$/;"	g
+crispr_hits	helper_scripts/create_catalogue_dataset.R	/^crispr_hits = crispr_hits2$/;"	g
+crispr_hits2	helper_scripts/create_catalogue_dataset.R	/^  read.table(file = '..\/data\/hmp_pilercr_blasthits_selected_contigs_taxa.txt', header = FALSE,/;"	g
+crispr_host_percentage	phage_analysis.R	/^crispr_host_percentage <- length(unique(vir_counts_prop_melt$Var1[!is.na(vir_counts_prop_melt$cr/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+crispr_host_species	helper_scripts/create_catalogue_dataset.R	/^crispr_host_species <- gsub("\\\\]", "", gsub(".*\\\\[", "", crispr_hits$sname))$/;"	g
+crispr_summary	helper_scripts/create_catalogue_dataset.R	/^crispr_summary <- crispr_hits %>% group_by(sseqid, crispr_host) %>%$/;"	g
+crisprhostRF	phage_analysis.R	/^crisprhostRF <- rfPermute(crispr_host~., data = jumbophage_fun_df, ntree = 100, num.cores = 2, n/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+crisprhostRF_imp	phage_analysis.R	/^crisprhostRF_imp <- as.data.frame(rp.importance(crisprhostRF, scale = TRUE))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+crisprhostRF_sig_imp	phage_analysis.R	/^crisprhostRF_sig_imp <- crisprhostRF_imp[crisprhostRF_imp$MeanDecreaseAccuracy.pval < 0.05,]$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+crisprhostRF_sig_imp_gen	phage_analysis.R	/^crisprhostRF_sig_imp_gen <- crisprhostRF_sig_imp[,names(crisprhostRF_sig_imp) %in% unique(jumbop/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+crisprhostRF_sig_imp_pval	phage_analysis.R	/^crisprhostRF_sig_imp_pval <- crisprhostRF_sig_imp[,names(crisprhostRF_sig_imp) %in% paste0(uniqu/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+crisprhostRF_top10	phage_analysis.R	/^crisprhostRF_top10 <- as.matrix(crisprhostRF_sig_imp_gen)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+defs1	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^    ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath1"$/;"	i
+demovir	helper_scripts/create_catalogue_dataset.R	/^demovir = read.table("..\/data\/DemoVir_assignments.txt", sep = "\\t", header=TRUE, row.names = /;"	g
+demovir_cols	phage_analysis.R	/^demovir_cols <- rev(c(brewer.pal(length(unique(vir_counts_prop_melt_agg$demovir)), "Set3")))$/;"	v	function:createPairedData
+description	helper_scripts/collate_functional_annotations.R	/^description <- rep(NA, nrow(pfam_metadata))$/;"	g
+df_cluster_samples_nmds	phage_analysis.R	/^df_cluster_samples_nmds <- as.data.frame(cluster_samples_nmds$points)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+df_meta_pair	phage_analysis.R	/^    df_meta_pair <- df_meta[(df_meta$Sample.name %in% Reduce(intersect,list(samples_one, samples/;"	v	function:createPairedData
+df_meta_pairs	phage_analysis.R	/^  df_meta_pairs <- data.frame()$/;"	v	function:createPairedData
+df_metaphlan_nmds	phage_analysis.R	/^df_metaphlan_nmds <- as.data.frame(metaphlan_nmds$points)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+df_nmds_persist	phage_analysis.R	/^  df_nmds_persist <- as.data.frame(nmds_persist$points)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+df_nmds_transient	phage_analysis.R	/^  df_nmds_transient <- as.data.frame(nmds_transient$points)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+df_paired_richness	phage_analysis.R	/^  df_paired_richness <- df_paired[!duplicated(paste0(df_paired$ID, df_paired$group)),]$/;"	v	functionVar:createPairedData.plotMultipleRichnessGraphs
+df_paired_richness	phage_analysis.R	/^  df_paired_richness <- df_paired[!duplicated(paste0(df_paired$ID, df_paired$group)),]$/;"	v	functionVar:createPairedData.runTtest
+df_paired_richness_group	phage_analysis.R	/^    df_paired_richness_group <- df_paired_richness[df_paired_richness$Location == ttest_groups$L/;"	v	functionVar:createPairedData.plotMultipleRichnessGraphs
+directed	phage_analysis.R	/^vcontact_igraph <- igraph::graph.data.frame(vcontact_sig_jumbo, directed = FALSE, vertices = jum/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+end_pos	helper_scripts/reorder_genbank_files.py	/^                    end_pos = end_pos + (last_end_pos - mcp_start_pos)$/;"	v
+end_pos	helper_scripts/reorder_genbank_files.py	/^                    end_pos = end_pos - mcp_start_pos$/;"	v
+end_pos	helper_scripts/reorder_genbank_files.py	/^                end_pos = features[j].location.end.position$/;"	v
+end_pos	helper_scripts/reorder_genbank_files.py	/^                end_pos = last_end_pos - record.features[i].location.start.position$/;"	v
+environment_cols	helper_scripts/create_tree_metadata.R	/^environment_cols <- rep(NA, length(unique(jumbo_mcp_meta_edit$environment)))$/;"	g
+family_prop	phage_analysis.R	/^  family_prop <- vir_counts_prop_melt_agg %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+family_prop_log	phage_analysis.R	/^  family_prop_log = log10(as.matrix(family_prop))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+fasta_file	helper_scripts/extract_proteins_from_largest_phages.py	/^fasta_file = '..\/data\/megaphage_contigs_translations2.fna'$/;"	v
+features	helper_scripts/reorder_genbank_files.py	/^        features = [record.features[j] for j in order_list]$/;"	v
+file	helper_scripts/extract_fasta_files.py	/^file = "..\/data\/megaphage_contigs.fasta"$/;"	v
+file	helper_scripts/extract_genbank_files.py	/^file = "..\/data\/circular_jumbo_phage_genomes_RAST.gbk"$/;"	v
+file	helper_scripts/reorder_genbank_files.py	/^    file = folder + locus + ".gbk"$/;"	v
+filterBySmallestEvalue	helper_scripts/collate_functional_annotations.R	/^filterBySmallestEvalue <- function(alignment_results) {$/;"	f
+fin	helper_scripts/clean_aragorn_output.py	/^fin = '..\/data\/jumbophage_trna.tab'$/;"	v
+folder	helper_scripts/reorder_genbank_files.py	/^folder = "..\/data\/mcp\/"$/;"	v
+fout	helper_scripts/clean_aragorn_output.py	/^fout = '..\/data\/jumbophage_trna_clean.tab'$/;"	v
+fun_colours	phage_analysis.R	/^fun_colours <- c("#E0A8E0", "#A6AAD1", "#D6A738", "#4D4CD4", "#6ED4C0", "#40A339", "#e88012","#B/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+g	phage_analysis.R	/^  g <- ggplot(df_paired_richness_group, aes(sample_type, richness)) +$/;"	v	functionVar:createPairedData.plotRichnessGraph
+g	phage_analysis.R	/^  g <- list()$/;"	v	functionVar:createPairedData.plotMultipleRichnessGraphs
+g_legend	phage_analysis.R	/^g_legend <- function(a.gplot){$/;"	v	function:createPairedData
+gc_content	helper_scripts/create_catalogue_dataset.R	/^gc_content = read.table("..\/data\/virsorter_positive_gc_content.txt", header=FALSE, row.names =/;"	g
+genera	phage_analysis.R	/^genera <- unique(contig_data$crispr_host[!is.na(contig_data$crispr_host)])$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+genericDefs	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^  \/><g$/;"	i
+genome	helper_scripts/reorder_genbank_files.py	/^            genome = list(str(record.seq))$/;"	v
+genome	helper_scripts/reorder_genbank_files.py	/^        genome = list(str(record.seq))$/;"	v
+graph_layout	phage_analysis.R	/^graph_layout <- layout_with_fr(vcontact_igraph)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+group_names	phage_analysis.R	/^group_names <- paste("Group", unique_clusters, c("\\n(buccal mucosa)", "\\n(dorsum of tongue\/sa/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+header_names	helper_scripts/collate_functional_annotations.R	/^header_names <- c("coding_region", "protein", "protein_description")$/;"	g
+headers	helper_scripts/extract_jumbophage_contigs.py	/^headers = []$/;"	v
+headers	helper_scripts/get_MCPs.py	/^headers = []$/;"	v
+host_cols	helper_scripts/create_tree_metadata.R	/^host_cols <- brewer.pal(length(unique(jumbo_mcp_meta_edit$host)), "Set3")$/;"	g
+i	helper_scripts/collate_functional_annotations.R	/^for(i in 1:nrow(pfam_metadata)) {$/;"	g
+i	helper_scripts/create_catalogue_dataset.R	/^for(i in levels(vir_refseq$V1))$/;"	g
+i	helper_scripts/phage_quantification.R	/^for (i in 1:length(scaf_len_files)) {$/;"	g
+i	phage_analysis.R	/^  for(i in 1:length(pair_list)){$/;"	v	function:createPairedData
+i	phage_analysis.R	/^  for(i in 1:nrow(ttest_groups)){$/;"	v	functionVar:createPairedData.plotMultipleRichnessGraphs
+i	phage_analysis.R	/^  for(i in 1:nrow(ttest_groups)){$/;"	v	functionVar:createPairedData.runTtest
+i	phage_analysis.R	/^for (i in 1:length(unique_demovir)) {$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+id	helper_scripts/clean_aragorn_output.py	/^            id = line.split('>')[1].split('\\n')[0]$/;"	v
+imgvr_file	helper_scripts/get_MCPs.py	/^imgvr_file = "..\/data\/imgvr_uvigs_translations.faa"$/;"	v
+imgvr_mcp_file	helper_scripts/get_MCPs.py	/^imgvr_mcp_file = "..\/data\/imgvr_mcp_headers.txt"$/;"	v
+imgvr_mcp_headers	helper_scripts/get_MCPs.py	/^imgvr_mcp_headers = []$/;"	v
+imgvr_mcps	helper_scripts/collate_functional_annotations.R	/^imgvr_mcps <- imgvr_proteins[grepl("major capsid protein", imgvr_proteins$protein_description),]$/;"	g
+imgvr_pfam	helper_scripts/collate_functional_annotations.R	/^imgvr_pfam <- read.table(file="..\/data\/imgvr_uvigs_pfam.out", sep = "", stringsAsFactors = F, /;"	g
+imgvr_proteins	helper_scripts/collate_functional_annotations.R	/^imgvr_proteins <- rbind(as.data.frame(imgvr_pvogs), as.data.frame(imgvr_pfam), as.data.frame(img/;"	g
+imgvr_pvogs	helper_scripts/collate_functional_annotations.R	/^imgvr_pvogs <- read.table("..\/data\/imgvr_uvigs_pvogs_hmm_tblout.txt", stringsAsFactors = FALSE/;"	g
+imgvr_tigrfams	helper_scripts/collate_functional_annotations.R	/^imgvr_tigrfams <- read.table(file="..\/data\/imgvr_uvigs_tigrfams.out", sep = "", stringsAsFacto/;"	g
+input	helper_scripts/extract_jumbophage_contigs.py	/^input = "..\/data\/jumbophage_contigs_for_annot.txt"$/;"	v
+input_fasta	helper_scripts/extract_jumbophage_contigs.py	/^input_fasta = "..\/data\/virsorter_positive.fasta"$/;"	v
+integrase	helper_scripts/create_catalogue_dataset.R	/^integrase = read.table("..\/data\/integrase_contigs.ids", header=FALSE)$/;"	g
+j	phage_analysis.R	/^  for (j in 1:length(sample_names)) {$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbo_alshayeb_meta	helper_scripts/create_tree_metadata.R	/^jumbo_alshayeb_meta <- read.xlsx("..\/data\/alshayeb\/41586_2020_2007_MOESM4_ESM.xlsx", sheet = /;"	g
+jumbo_alshayeb_meta4	helper_scripts/create_tree_metadata.R	/^jumbo_alshayeb_meta4 <- read.xlsx("..\/data\/alshayeb\/41586_2020_2007_MOESM4_ESM.xlsx", sheet =/;"	g
+jumbo_args	phage_analysis.R	/^jumbo_args <- phages_args[phages_args$name %in% jumbophage_contigs_meta$name,]$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbo_cluster_args	phage_analysis.R	/^jumbo_cluster_args <- phages_args[as.character(phages_args$vcontact_cluster) %in% jumbophage_con/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbo_imgvr_meta	helper_scripts/create_tree_metadata.R	/^jumbo_imgvr_meta <- read.csv("..\/data\/imgvr_uvigs_info_200414_edit.csv", stringsAsFactors = FA/;"	g
+jumbo_mcp_headers	helper_scripts/get_MCPs.py	/^jumbo_mcp_headers = []$/;"	v
+jumbo_mcp_meta_edit	helper_scripts/create_tree_metadata.R	/^jumbo_mcp_meta_edit <- left_join(jumbo_together_meta, jumbo_meta_lookup, by = "name")$/;"	g
+jumbo_meta_lookup	helper_scripts/create_tree_metadata.R	/^jumbo_meta_lookup <- read.delim("..\/db\/ONTOLOGIES\/jumbophage_metadata_lookup.txt", stringsAsF/;"	g
+jumbo_ours_meta	helper_scripts/create_tree_metadata.R	/^jumbo_ours_meta <- jumbophage_contig_meta %>% select(name, size, circular, crispr_host, environm/;"	g
+jumbo_refseq_headers	helper_scripts/create_tree_metadata.R	/^jumbo_refseq_headers <- read.delim("..\/data\/refseq_r99\/refseq_r99_jumbophage_headers.txt", he/;"	g
+jumbo_refseq_meta	helper_scripts/create_tree_metadata.R	/^jumbo_refseq_meta <- read.table("..\/data\/refseq_r99\/refseq_r99_jumbophage_info_edit.txt", sep/;"	g
+jumbo_together_meta	helper_scripts/create_tree_metadata.R	/^jumbo_together_meta <- rbind(jumbo_ours_meta, jumbo_alshayeb_meta, jumbo_imgvr_meta, jumbo_refse/;"	g
+jumbophage_cluster_crispr_host	phage_analysis.R	/^jumbophage_cluster_crispr_host <- jumbophage_contigs_meta %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_contig_meta	helper_scripts/collate_functional_annotations.R	/^jumbophage_contig_meta <- inner_join(metadata, jumbophage_contigs, by = c("ID"="sample"))$/;"	g
+jumbophage_contig_meta	helper_scripts/create_tree_metadata.R	/^jumbophage_contig_meta <- inner_join(jumbophage_contigs, metadata, by = c("sample"="ID")) $/;"	g
+jumbophage_contigs	helper_scripts/collate_functional_annotations.R	/^jumbophage_contigs <- read.table("..\/data\/jumbophage_contigs.txt", stringsAsFactors = FALSE)$/;"	g
+jumbophage_contigs	helper_scripts/create_tree_metadata.R	/^jumbophage_contigs <- read.table("..\/data\/jumbophage_contigs.txt", stringsAsFactors = FALSE)$/;"	g
+jumbophage_contigs	helper_scripts/get_candidate_jumbophages.R	/^jumbophage_contigs = contig_data[which(contig_data$size >= 200000),]$/;"	g
+jumbophage_contigs	helper_scripts/phage_quantification.R	/^jumbophage_contigs <- read.table("..\/data\/jumbophage_contigs_filtered.txt", stringsAsFactors =/;"	g
+jumbophage_contigs	phage_analysis.R	/^jumbophage_contigs <- read.delim("data\/jumbophage_contigs_final.txt", sep = " ", stringsAsFacto/;"	v	function:createPairedData
+jumbophage_contigs_circ	helper_scripts/get_candidate_jumbophages.R	/^jumbophage_contigs_circ = jumbophage_contigs[which(jumbophage_contigs$circular),]$/;"	g
+jumbophage_contigs_final	helper_scripts/phage_quantification.R	/^jumbophage_contigs_final <- contig_data_final[which(contig_data_final$size >= 200000),]$/;"	g
+jumbophage_contigs_meta	phage_analysis.R	/^jumbophage_contigs_meta <- inner_join(jumbophage_contigs[,c("name", "circular", "size", "vcontac/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_contigs_meta_circ	phage_analysis.R	/^jumbophage_contigs_meta_circ <- jumbophage_contigs_meta[jumbophage_contigs_meta$circular,]$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_contigs_meta_nodup	phage_analysis.R	/^jumbophage_contigs_meta_nodup <- jumbophage_contigs_meta[!duplicated(paste(jumbophage_contigs_me/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_contigs_table	phage_analysis.R	/^jumbophage_contigs_table <- jumbophage_contigs_meta %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_file	helper_scripts/get_MCPs.py	/^jumbophage_file = "..\/data\/jumbophage_contigs_translations.faa"$/;"	v
+jumbophage_fun_df	phage_analysis.R	/^jumbophage_fun_df <- as.data.frame.matrix(jumbophage_fun_mat)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_fun_mat	phage_analysis.R	/^jumbophage_fun_mat <- table(jumbophage_gff_meta$vcontact_cluster_Var1, jumbophage_gff_meta$prote/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_fun_table	phage_analysis.R	/^jumbophage_fun_table <- jumbophage_gff_meta %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_gff	phage_analysis.R	/^jumbophage_gff <- read.csv("data\/jumbophage_prodigal.gff", stringsAsFactors = FALSE)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_gff_meta	phage_analysis.R	/^jumbophage_gff_meta <- inner_join(jumbophage_gff, jumbophage_contigs_meta, by = c("V1" = "name")/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_gff_summary	phage_analysis.R	/^jumbophage_gff_summary <- jumbophage_gff_meta %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_mcp_file	helper_scripts/get_MCPs.py	/^jumbophage_mcp_file = "..\/data\/jumbophage_mcp_headers.txt"$/;"	v
+jumbophage_mcps	helper_scripts/collate_functional_annotations.R	/^jumbophage_mcps <- jumbophages_proteins[grepl("major capsid protein", jumbophages_proteins$prote/;"	g
+jumbophage_mcps	helper_scripts/create_tree_metadata.R	/^jumbophage_mcps <- read.table("..\/data\/jumbophage_mcp_headers.txt", stringsAsFactors = FALSE)$/;"	g
+jumbophage_num_loc	phage_analysis.R	/^jumbophage_num_loc <- jumbophage_contigs_meta %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_persistent	phage_analysis.R	/^jumbophage_persistent <- jumbophage_contigs_meta %>% $/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_prev	phage_analysis.R	/^jumbophage_prev <- jumbophage_num_loc %>% $/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_prev_meta	phage_analysis.R	/^jumbophage_prev_meta <- left_join(jumbophage_prev, jumbophage_contigs_meta, by = "vcontact_clust/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophage_summary	phage_analysis.R	/^jumbophage_summary <- jumbophage_contigs_meta %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+jumbophages	helper_scripts/extract_proteins_from_largest_phages.py	/^    jumbophages = []$/;"	v
+jumbophages_pfam	helper_scripts/collate_functional_annotations.R	/^jumbophages_pfam <- read.table(file="..\/data\/jumbophage_proteins_pfam.out", sep = "", stringsA/;"	g
+jumbophages_proteins	helper_scripts/collate_functional_annotations.R	/^jumbophages_proteins <- rbind(as.data.frame(jumbophages_pvogs), as.data.frame(jumbophages_pfam),/;"	g
+jumbophages_pvogs	helper_scripts/collate_functional_annotations.R	/^jumbophages_pvogs <- read.table("..\/data\/jumbophage_pvogs_hmm_tblout.txt", stringsAsFactors = /;"	g
+jumbophages_tigrfams	helper_scripts/collate_functional_annotations.R	/^jumbophages_tigrfams <- read.table(file="..\/data\/jumbophage_proteins_tigrfams.out", sep = "", /;"	g
+jumbophages_trna	phage_analysis.R	/^jumbophages_trna <- read.table("data\/jumbophage_trna_clean.tab", stringsAsFactors = FALSE)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+k	phage_analysis.R	/^for(k in 3:(length(avg_sil)+1)) {$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+labCol	phage_analysis.R	/^            labCol = NA,$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+labRow	phage_analysis.R	/^            labRow = NA,$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+labels_clusters	phage_analysis.R	/^labels_clusters <- gsub(" ", "", labels_clusters)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+last_end_pos	helper_scripts/reorder_genbank_files.py	/^                last_end_pos = record.features[0].location.end.position$/;"	v
+last_end_pos	helper_scripts/reorder_genbank_files.py	/^            last_end_pos = record.features[len(record.features)-1].location.end.position$/;"	v
+lay	phage_analysis.R	/^lay <- rbind(c(1,2,3), c(4,5,6), c(7,8,9))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+leg	phage_analysis.R	/^  leg <- which(sapply(tmp$grobs, function(x) x$name) == "guide-box")$/;"	v	functionVar:createPairedData.g_legend
+legend	phage_analysis.R	/^  legend <- tmp$grobs[[leg]]$/;"	v	functionVar:createPairedData.g_legend
+line	helper_scripts/clean_aragorn_output.py	/^            line = line.split('\\n')[0] + '\\t' + id$/;"	v
+linear_mod	phage_analysis.R	/^linear_mod <- lm(richness ~ n_phage_contigs, richness)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+linear_phages	helper_scripts/collate_functional_annotations.R	/^linear_phages <- jumbophage_contigs$name[!jumbophage_contigs$circular]$/;"	g
+list_family_mat	phage_analysis.R	/^list_family_mat <- list()$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+loci	helper_scripts/extract_fasta_files.py	/^loci = ["SRS078431_NODE_11_length_258293_cov_26.0675", "SRS017304_NODE_5_length_258288_cov_116.4/;"	v
+loci	helper_scripts/extract_genbank_files.py	/^loci = ["ERR589420_NODE_6_length_229992_cov_13.7426_182", "SRS019607_NODE_9_length_235695_cov_21/;"	v
+loci	helper_scripts/extract_proteins_from_largest_phages.py	/^loci = ["SRS016200_NODE_2_length_551943_cov_20.3899", "SRS047100_NODE_1_length_449263_cov_16.009/;"	v
+loci	helper_scripts/reorder_genbank_files.py	/^loci = ["SRS078425_NODE_1_length_226348_cov_18.355", "SRS019607_NODE_9_length_235695_cov_219.599/;"	v
+loci_rev	helper_scripts/reorder_genbank_files.py	/^loci_rev = ["SRS078425_NODE_1_length_226348_cov_18.355", "SRS019607_NODE_9_length_235695_cov_219/;"	v
+locus	helper_scripts/extract_genbank_files.py	/^        locus = locus.split("_" + prot)[0]$/;"	v
+long_n	phage_analysis.R	/^long_n <- metadata_longus %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+main	phage_analysis.R	/^            main = title)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+match_ind	phage_analysis.R	/^match_ind <- c()$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+max_group_length	phage_analysis.R	/^max_group_length <- max(sapply(vir_group_list, function(x) length(x)))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+mcp_headers	helper_scripts/create_tree_metadata.R	/^mcp_headers <- read.delim("..\/data\/major_capsid_proteins_headers.txt", header = FALSE)$/;"	g
+mcp_identifiers	helper_scripts/get_MCPs.py	/^mcp_identifiers = ["major capsid protein", "Major capsid protein"]$/;"	v
+mcp_start_pos	helper_scripts/reorder_genbank_files.py	/^                mcp_start_pos = record.features[order_from].location.start.position$/;"	v
+median_n_cluster	phage_analysis.R	/^median_n_cluster <- median(samples_with_n_clusters$n)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+median_n_phage	phage_analysis.R	/^median_n_phage <- median(samples_with_n_phage$n)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+megaphage_contigs_meta	phage_analysis.R	/^megaphage_contigs_meta <- jumbophage_contigs_meta[jumbophage_contigs_meta$size > 500000,]$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metadata	helper_scripts/collate_functional_annotations.R	/^metadata = read.csv("..\/data\/metadata_v2.csv", stringsAsFactors = FALSE)$/;"	g
+metadata	helper_scripts/create_tree_metadata.R	/^metadata = read.csv("..\/data\/metadata_v2.csv", stringsAsFactors = FALSE)$/;"	g
+metadata	helper_scripts/phage_quantification.R	/^metadata = read.csv("..\/data\/metadata_v2.csv", stringsAsFactors = FALSE)$/;"	g
+metadata	phage_analysis.R	/^metadata = read.csv("data\/metadata_v2.csv", stringsAsFactors = FALSE)$/;"	v	function:createPairedData
+metadata_longus	phage_analysis.R	/^metadata_longus <- metadata[metadata$Location == "US",] %>% $/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metadata_longus_summary	phage_analysis.R	/^metadata_longus_summary <- metadata_longus %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metadata_richness	phage_analysis.R	/^metadata_richness <- metadata[!metadata$ID %in% unique(c(remove_ids, metadata$ID[!metadata$ID %i/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metadata_summary	phage_analysis.R	/^metadata_summary <- metadata %>% filter(Visit_Number == 1) %>% group_by(Location, sample_type) %/;"	v	function:createPairedData
+metadata_summary	phage_analysis.R	/^metadata_summary <- metadata %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metaphlan	phage_analysis.R	/^metaphlan <- read.csv("data\/all_metaphlan.csv", stringsAsFactors = FALSE)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metaphlan_abund	phage_analysis.R	/^metaphlan_abund <- metaphlan[grepl("s__", row.names(metaphlan)) & !grepl("t__", row.names(metaph/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metaphlan_abund_genera	phage_analysis.R	/^metaphlan_abund_genera <- gsub("\\\\|.*", "", gsub(".*\\\\|g__", "", row.names(metaphlan_abund))/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metaphlan_abund_log	phage_analysis.R	/^metaphlan_abund_log <- log10(metaphlan_abund)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metaphlan_filter	phage_analysis.R	/^metaphlan_filter <- metaphlan[grepl("g__", row.names(metaphlan)) & !grepl("s__", row.names(metap/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metaphlan_genera	phage_analysis.R	/^metaphlan_genera <- gsub("\\\\|.*", "", gsub(".*\\\\|g__", "", row.names(metaphlan_filter)))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metaphlan_host	phage_analysis.R	/^metaphlan_host <- as.matrix(metaphlan_filter[match_ind,])$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metaphlan_host_log	phage_analysis.R	/^metaphlan_host_log <- log10(metaphlan_host)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metaphlan_meta	phage_analysis.R	/^metaphlan_meta <- data.frame(ID = colnames(metaphlan_filter)) %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metaphlan_nmds	phage_analysis.R	/^metaphlan_nmds <- metaMDS(t(metaphlan), distance = "bray", k = 2, trymax = 20)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+metaphlan_summary	phage_analysis.R	/^metaphlan_summary <- metaphlan_meta %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+n_circ_jumbophages_in_clusters	phage_analysis.R	/^n_circ_jumbophages_in_clusters <- length(jumbophage_contigs_meta_circ$name[!is.na(jumbophage_con/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+n_clusters_with_circ_jumbophages	phage_analysis.R	/^n_clusters_with_circ_jumbophages <- length(unique(jumbophage_contigs_meta_circ$vcontact_cluster[/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+n_clusters_with_jumbophages	phage_analysis.R	/^n_clusters_with_jumbophages <- length(unique(jumbophage_contigs_meta$vcontact_cluster[!is.na(jum/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+n_individuals	phage_analysis.R	/^n_individuals <- cluster_persist_all %>% $/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+n_jumbophages_in_clusters	phage_analysis.R	/^n_jumbophages_in_clusters <- length(jumbophage_contigs_meta$name[!is.na(jumbophage_contigs_meta$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+n_persist_clusters	phage_analysis.R	/^n_persist_clusters <- rep(NA, length(unique(vir_counts_longus_demovir$sample_type)))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+n_phage_clusters	phage_analysis.R	/^n_phage_clusters <- length(unique(vir_counts_prop_melt$vcontact_cluster[!(is.na(vir_counts_prop_/;"	v	function:createPairedData
+n_phage_contigs	phage_analysis.R	/^n_phage_contigs <- length(unique(vir_counts_prop_melt$Var1))$/;"	v	function:createPairedData
+n_phage_contigs_in_clusters	phage_analysis.R	/^n_phage_contigs_in_clusters <- length(unique(vir_counts_prop_melt$Var1[!(is.na(vir_counts_prop_m/;"	v	function:createPairedData
+n_phage_contigs_not_in_clusters	phage_analysis.R	/^n_phage_contigs_not_in_clusters <- length(unique(vir_counts_prop_melt$Var1[is.na(vir_counts_prop/;"	v	function:createPairedData
+n_samples	phage_analysis.R	/^n_samples <- rep(NA, length(unique(vir_counts_longus_demovir$sample_type)))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+n_transient_clusters	phage_analysis.R	/^n_transient_clusters <- rep(NA, length(unique(vir_counts_longus_demovir$sample_type)))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+nclusters	phage_analysis.R	/^nclusters <- length(levels(as.factor(V(vcontact_igraph)$vcontact_cluster)))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+new_strand	helper_scripts/reorder_genbank_files.py	/^                new_strand = record.features[i].location.strand * -1$/;"	v
+nmds_persist	phage_analysis.R	/^  nmds_persist <- metaMDS(cluster_persist_cast, distance = "bray", k = 2, trymax = 20)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+nmds_transient	phage_analysis.R	/^  nmds_transient <- metaMDS(cluster_transient_cast, distance = "bray", k = 2, trymax = 20)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+not_genera	phage_analysis.R	/^not_genera <- c(NA, "Lachnospiraceae", "Bacteroidetes")$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+nsc068384c0101	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^><!--Generated by GView version 1.7--><defs id="genericDefs"$/;"	n	uri:http://www.w3.org/2000/svg
+num_clusters	phage_analysis.R	/^num_clusters <- rep(NA, length(unique_demovir))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+order_from	helper_scripts/reorder_genbank_files.py	/^                order_from = i$/;"	v
+order_genome	helper_scripts/reorder_genbank_files.py	/^            order_genome = []$/;"	v
+order_genome	helper_scripts/reorder_genbank_files.py	/^        order_genome = []$/;"	v
+order_list	helper_scripts/reorder_genbank_files.py	/^            order_list = []$/;"	v
+order_list	helper_scripts/reorder_genbank_files.py	/^        order_list = [0]$/;"	v
+output_fasta	helper_scripts/extract_jumbophage_contigs.py	/^output_fasta = "..\/data\/jumbophage_contigs.fasta"$/;"	v
+output_prefix	helper_scripts/extract_genbank_files.py	/^output_prefix = "..\/data\/mcp\/"$/;"	v
+p_values	phage_analysis.R	/^  p_values <- c()$/;"	v	functionVar:createPairedData.runTtest
+pair_list	phage_analysis.R	/^pair_list <- list(c("stool", "dental"), c("stool", "saliva"), c("dental", "saliva"),$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+paired_metadata	phage_analysis.R	/^paired_metadata <- createPairedData(metadata[metadata$ID %in% vir_counts_prop_melt_meta$ID,], pa/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+paired_metadata_summary	phage_analysis.R	/^paired_metadata_summary <- paired_metadata %>% group_by(Location, group, sample_type) %>% summar/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+perc_fam_host_ass	phage_analysis.R	/^perc_fam_host_ass <- vir_counts_prop_melt %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+perc_fam_host_plot	phage_analysis.R	/^perc_fam_host_plot <- list()$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+permanova_persist	phage_analysis.R	/^permanova_persist <- list()$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+permanova_transient	phage_analysis.R	/^permanova_transient <- list()$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+persist_graphs	phage_analysis.R	/^persist_graphs <- list()$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+persist_sample	phage_analysis.R	/^  persist_sample <- data.frame(Sample.name = sapply(rownames(cluster_persist_cast), function(x) /;"	v	functionVar:createPairedData.plotFamilyHeatmap
+pfam_metadata	helper_scripts/collate_functional_annotations.R	/^pfam_metadata <- data.frame(ids = unique(jumbophages_pfam$target_name))$/;"	g
+phages_args	phage_analysis.R	/^phages_args <- inner_join(all_args, vir_counts_prop_melt_meta, by = c("name"="Var1", "ID")) %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+phages_w_cp	helper_scripts/collate_functional_annotations.R	/^phages_w_cp <- unique(prodigal_gff$V1[prodigal_gff$Name %in% "Major capsid protein"])$/;"	g
+plotFamilyHeatmap	phage_analysis.R	/^plotFamilyHeatmap <- function(family_matrix, title, cols = cohort_cols) {$/;"	v	function:createPairedData
+plotMultipleRichnessGraphs	phage_analysis.R	/^plotMultipleRichnessGraphs <- function(ttest_groups, df_paired, cols){$/;"	v	function:createPairedData
+plotRichnessGraph	phage_analysis.R	/^plotRichnessGraph <- function(df_paired_richness_group, ttest_group, cols) {$/;"	v	function:createPairedData
+prodigal_gff	helper_scripts/collate_functional_annotations.R	/^prodigal_gff <- read.table("..\/data\/jumbophage_contigs_prodigal.gff", stringsAsFactors = FALSE/;"	g
+prot	helper_scripts/extract_genbank_files.py	/^        prot = locus.split("_")[-1]$/;"	v
+prot_lookup	helper_scripts/collate_functional_annotations.R	/^prot_lookup <- read.table("..\/db\/ONTOLOGIES\/protein_family_lookup.txt", sep = "\\t", stringsA/;"	g
+protest_res	phage_analysis.R	/^protest_res <- protest(df_cluster_samples_nmds[,c(1:2)], df_metaphlan_nmds[,c(1:2)], scale = TRU/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+pvogs_count	helper_scripts/create_catalogue_dataset.R	/^pvogs_count = read.table("..\/data\/pvogs_counts_per_contig.txt", header=FALSE)$/;"	g
+pvogs_metadata	helper_scripts/collate_functional_annotations.R	/^pvogs_metadata <- read.table("..\/db\/AllvogHMMprofiles\/VOGTable_singleprot.txt", stringsAsFact/;"	g
+rand_colours	phage_analysis.R	/^rand_colours <- colorRampPalette(c(brewer.pal(8, "Spectral"),brewer.pal(8, "RdBu"), brewer.pal(8/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+rand_colours2	phage_analysis.R	/^rand_colours2 <- colorRampPalette(c(brewer.pal(8, "Spectral"),brewer.pal(8, "RdBu"), brewer.pal(/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+records	helper_scripts/extract_jumbophage_contigs.py	/^records = []$/;"	v
+refseq_file	helper_scripts/get_MCPs.py	/^refseq_file = "..\/data\/refseq_r99\/refseq_r99_jumbophage_genbank.gb"$/;"	v
+refseq_file	helper_scripts/get_RefSeq_info.py	/^refseq_file = "..\/data\/refseq_r99\/refseq_r99_jumbophage_genbank.gb"$/;"	v
+refseq_jumbo_file	helper_scripts/get_MCPs.py	/^refseq_jumbo_file = "..\/data\/refseq_r99\/refseq_r99_jumbophage_headers.txt"$/;"	v
+refseq_jumbophage_headers	helper_scripts/get_MCPs.py	/^refseq_jumbophage_headers = []$/;"	v
+remove_ids	phage_analysis.R	/^remove_ids <- rownames(vir_cluster_counts)[rowSums(vir_cluster_counts > 0) <= 3]$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+remove_samples	phage_analysis.R	/^  remove_samples <- richness_paired$Sample.name[(richness_paired$no_phages <= 100 & richness_pai/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+reordered_genome	helper_scripts/reorder_genbank_files.py	/^            reordered_genome = "".join(reordered_genome)$/;"	v
+reordered_genome	helper_scripts/reorder_genbank_files.py	/^            reordered_genome = [genome[n] for n in order_genome]$/;"	v
+reordered_genome	helper_scripts/reorder_genbank_files.py	/^        reordered_genome = "".join(reordered_genome)$/;"	v
+reordered_genome	helper_scripts/reorder_genbank_files.py	/^        reordered_genome = [genome[n] for n in order_genome]$/;"	v
+ribo_prot_count	helper_scripts/create_catalogue_dataset.R	/^ribo_prot_count = read.table("..\/data\/ribosomal_prot_counts.txt", header=FALSE)$/;"	g
+richness	phage_analysis.R	/^richness <- data.frame(ID = rownames(vir_cluster_counts), richness = rowSums(vir_cluster_counts /;"	v	functionVar:createPairedData.plotFamilyHeatmap
+richness_graphs_ss	phage_analysis.R	/^richness_graphs_ss <- plotMultipleRichnessGraphs(richness_ttest_ss, richness_paired_ss, cols)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+richness_paired	phage_analysis.R	/^richness_paired <- data.frame(ID = rownames(vir_cluster_counts), richness = rowSums(vir_cluster_/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+richness_paired_ss	phage_analysis.R	/^richness_paired_ss <- readRDS("data\/subsampled_phage_cluster_richness.RDS")$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+richness_ttest_ss	phage_analysis.R	/^richness_ttest_ss <- runTtest(richness_paired_ss)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+rowLabels	phage_analysis.R	/^rowLabels <- sapply(rownames(crisprhostRF_sig_imp_gen), function(x) unique(jumbophage_gff$protei/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+runTtest	phage_analysis.R	/^runTtest <- function(df_paired){$/;"	v	function:createPairedData
+sample_names	phage_analysis.R	/^  sample_names <- unique(cluster_persist$Sample.name)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+samples_clust	phage_analysis.R	/^samples_clust <- pam(df_cluster_samples_nmds[,c("MDS1", "MDS2")], which.max(avg_sil)+1)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+samples_clust_check	phage_analysis.R	/^samples_clust_check <- pam(as.matrix(cluster_samples_raw), which.max(avg_sil_check)+1)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+samples_one	phage_analysis.R	/^    samples_one <- unique(df_meta$Sample.name[df_meta$sample_type == pair_list[[i]][1]])$/;"	v	function:createPairedData
+samples_two	phage_analysis.R	/^    samples_two <- unique(df_meta$Sample.name[df_meta$sample_type == pair_list[[i]][2]])$/;"	v	function:createPairedData
+samples_with_n_clusters	phage_analysis.R	/^samples_with_n_clusters <- vir_counts_prop_melt %>% $/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+samples_with_n_phage	phage_analysis.R	/^samples_with_n_phage <- vir_counts_prop_melt %>% $/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+scaf_len	helper_scripts/phage_quantification.R	/^scaf_len <- data.frame()$/;"	g
+scaf_len_files	helper_scripts/phage_quantification.R	/^scaf_len_files <- list.files("..\/db\/SCAFFOLD_LENGTHS", pattern = "*txt", full.names = TRUE)$/;"	g
+scaffold_lengths	phage_analysis.R	/^scaffold_lengths <- readRDS("data\/scaffold_lengths.RDS")$/;"	v	function:createPairedData
+scaffold_lengths_summary	phage_analysis.R	/^scaffold_lengths_summary <- left_join(scaffold_lengths, metadata, by = "ID") %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+sizes_lower	phage_analysis.R	/^sizes_lower <- c(3e3, 1e4, 5e4, 2e5)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+sizes_upper	phage_analysis.R	/^sizes_upper <- c(sizes_lower[-1], Inf)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+split	phage_analysis.R	/^                                                   split <- strsplit(.x, ",")$/;"	v	functionVar:createPairedData.plotFamilyHeatmap.anonFunc50a7fb0d2204
+start_pos	helper_scripts/reorder_genbank_files.py	/^                    start_pos = start_pos - mcp_start_pos$/;"	v
+start_pos	helper_scripts/reorder_genbank_files.py	/^                start_pos = features[j].location.start.position$/;"	v
+start_pos	helper_scripts/reorder_genbank_files.py	/^                start_pos = last_end_pos - record.features[i].location.end.position$/;"	v
+struct_prot_count	helper_scripts/collate_functional_annotations.R	/^struct_prot_count <- prodigal_gff %>% group_by(V1, Parent) %>%$/;"	g
+struct_prot_prev	helper_scripts/collate_functional_annotations.R	/^struct_prot_prev <- prodigal_gff %>% $/;"	g
+study_cols	helper_scripts/create_tree_metadata.R	/^study_cols <- brewer.pal(length(unique(jumbo_mcp_meta_edit$study)), "Set1")$/;"	g
+tax_string	phage_analysis.R	/^  tax_string = as.character(vcontact_refseq[which(vcontact_refseq$VC.Subcluster == i),"Genome"])$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+tigrfams_metadata	helper_scripts/collate_functional_annotations.R	/^tigrfams_metadata <- data.frame(ids = unique(jumbophages_tigrfams$target_name))$/;"	g
+tmp	helper_scripts/collate_functional_annotations.R	/^  tmp <- system(paste0("grep -A2 ", pfam_metadata$ids[i], "$ ..\/db\/PFAM\/Pfam-A.hmm.dat"), int/;"	g
+tmp	helper_scripts/phage_quantification.R	/^  tmp <- read.delim(scaf_len_files[i], header = FALSE)$/;"	g
+tmp	phage_analysis.R	/^  tmp <- data.frame(sample_type = rep(cluster_no_tp$sample_type[cluster_no_tp$no_tp == .x], .x),$/;"	v	functionVar:createPairedData.plotFamilyHeatmap.anonFunc50a7fb0d1004
+tmp	phage_analysis.R	/^  tmp <- ggplot_gtable(ggplot_build(a.gplot))$/;"	v	functionVar:createPairedData.g_legend
+tmp	phage_analysis.R	/^  tmp <- silhouette(pam(df_cluster_samples_nmds[,c("MDS1", "MDS2")], k = k), df_cluster_samples_/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+tmp_inds	helper_scripts/collate_functional_annotations.R	/^  tmp_inds <- grep(prot_lookup$description_contains[i], prodigal_gff$protein_description)$/;"	g
+tmp_match_ind	phage_analysis.R	/^  tmp_match_ind <- grep(paste0(genera[i], "$"), metaphlan_genera)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+transient_graphs	phage_analysis.R	/^transient_graphs <- list()$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+transient_sample	phage_analysis.R	/^  transient_sample <- data.frame(Sample.name = sapply(rownames(cluster_transient_cast), function/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+translations	helper_scripts/get_MCPs.py	/^translations = []$/;"	v
+trna_bitscore_cutoff	helper_scripts/create_catalogue_dataset.R	/^trna_bitscore_cutoff = 65$/;"	g
+trna_evalue_cutoff	helper_scripts/create_catalogue_dataset.R	/^trna_evalue_cutoff = 1E-10$/;"	g
+trna_gff	phage_analysis.R	/^trna_gff <- jumbophages_trna %>% mutate(source = "ARAGORN_v1.2.36", type = "tRNA", phase = 0, sc/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+ttest_groups	phage_analysis.R	/^  ttest_groups <- df_paired_richness[!duplicated(paste0(df_paired_richness$Location,$/;"	v	functionVar:createPairedData.runTtest
+type1	phage_analysis.R	/^    type1 <- strsplit(ttest_groups$group[i], " vs. ")[[1]][1]$/;"	v	functionVar:createPairedData.runTtest
+type2	phage_analysis.R	/^    type2 <- strsplit(ttest_groups$group[i], " vs. ")[[1]][2]$/;"	v	functionVar:createPairedData.runTtest
+unique_clusters	phage_analysis.R	/^unique_clusters <- unique(df_cluster_samples_nmds$cluster)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+unique_demovir	phage_analysis.R	/^unique_demovir <- sort(unique(vir_counts_prop_melt_agg$demovir))$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+unique_groups	phage_analysis.R	/^unique_groups <- unique(richness_paired$group)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vcontact	helper_scripts/create_catalogue_dataset.R	/^vcontact = read.csv("..\/data\/genome_by_genome_overview.csv")$/;"	g
+vcontact_igraph	phage_analysis.R	/^vcontact_igraph <- igraph::graph.data.frame(vcontact_sig_jumbo, directed = FALSE, vertices = jum/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vcontact_refseq	phage_analysis.R	/^vcontact_refseq <- vcontact[!grepl("NODE", vcontact$Genome),]$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vcontact_sig	helper_scripts/get_candidate_jumbophages.R	/^vcontact_sig = fread("..\/data\/cc_sig1.0_mcl1.5.ntw")$/;"	g
+vcontact_sig_jumbo	phage_analysis.R	/^vcontact_sig_jumbo <- vcontact_sig[V1 %in% jumbophage_contigs$name & V2 %in% jumbophage_contigs$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vcontact_sig_jumboph	helper_scripts/get_candidate_jumbophages.R	/^vcontact_sig_jumboph = vcontact_sig[V1 %in% jumbophage_contigs$name & V2 %in% jumbophage_contigs/;"	g
+vertex_cluster	phage_analysis.R	/^vertex_cluster <- rand_colours[sample(1:nclusters, nclusters)]$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vertex_host	phage_analysis.R	/^vertex_host <- rand_colours2[sample(1:length(unique(labels_clusters)),length(unique(labels_clust/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vertices	phage_analysis.R	/^vcontact_igraph <- igraph::graph.data.frame(vcontact_sig_jumbo, directed = FALSE, vertices = jum/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vir_cluster_counts	phage_analysis.R	/^vir_cluster_counts <- dcast(vir_counts_prop_melt_meta[!(is.na(vir_counts_prop_melt_meta$vcontact/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vir_counts	helper_scripts/phage_quantification.R	/^vir_counts = read.table("..\/data\/bowtie2_read_counts.txt", header=TRUE, row.names = 1, sep = "/;"	g
+vir_counts_longus	phage_analysis.R	/^vir_counts_longus <- left_join(metadata_longus[,c("ID", "Sample.name", "Visit_Number")], vir_cou/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vir_counts_longus_demovir	phage_analysis.R	/^vir_counts_longus_demovir <- left_join(metadata_longus[,c("ID", "Sample.name", "Visit_Number")],/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vir_counts_prop	helper_scripts/phage_quantification.R	/^vir_counts_prop = apply(vir_counts, 2, function(x) x\/sum(x))$/;"	g
+vir_counts_prop_agg	helper_scripts/phage_quantification.R	/^vir_counts_prop_agg = dcast.data.table(vir_counts_prop_melt_agg, vcontact_cluster ~ Var2, value./;"	g
+vir_counts_prop_agg	phage_analysis.R	/^vir_counts_prop_agg <- readRDS("data\/vir_counts_prop_agg.RDS")$/;"	v	function:createPairedData
+vir_counts_prop_agg_meta	phage_analysis.R	/^vir_counts_prop_agg_meta <- vir_counts_prop_agg[,colnames(vir_counts_prop_agg) %in% metadata$ID[/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vir_counts_prop_agg_meta_diff	phage_analysis.R	/^vir_counts_prop_agg_meta_diff = vir_counts_prop_agg_meta[rownames(vir_counts_prop_agg_meta) %in%/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vir_counts_prop_agg_meta_diff_log	phage_analysis.R	/^vir_counts_prop_agg_meta_diff_log = log10(vir_counts_prop_agg_meta_diff)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vir_counts_prop_agg_phage	helper_scripts/phage_quantification.R	/^vir_counts_prop_agg_phage <- dcast.data.table(vir_counts_prop_melt, Var1 ~ Var2, value.var = "va/;"	g
+vir_counts_prop_agg_phage	phage_analysis.R	/^vir_counts_prop_agg_phage <- readRDS("data\/vir_counts_prop_agg_phage.RDS")$/;"	v	function:createPairedData
+vir_counts_prop_melt	helper_scripts/phage_quantification.R	/^vir_counts_prop_melt = melt(vir_counts_prop)$/;"	g
+vir_counts_prop_melt	phage_analysis.R	/^vir_counts_prop_melt <- readRDS("data\/vir_counts_prop_melt.RDS")$/;"	v	function:createPairedData
+vir_counts_prop_melt_agg	helper_scripts/phage_quantification.R	/^vir_counts_prop_melt_agg = vir_counts_prop_melt[, sum(value), by=.(Var2, demovir, vcontact_clust/;"	g
+vir_counts_prop_melt_agg	phage_analysis.R	/^vir_counts_prop_melt_agg <- readRDS("data\/vir_counts_prop_melt_agg.RDS")$/;"	v	function:createPairedData
+vir_counts_prop_melt_agg2	helper_scripts/phage_quantification.R	/^vir_counts_prop_melt_agg2 = vir_counts_prop_melt[, sum(value), by=.(Var2, crispr_host, sample_ty/;"	g
+vir_counts_prop_melt_agg2	phage_analysis.R	/^vir_counts_prop_melt_agg2 <- readRDS("data\/vir_counts_prop_melt_agg2.RDS")$/;"	v	function:createPairedData
+vir_counts_prop_melt_agg_exus	phage_analysis.R	/^vir_counts_prop_melt_agg_exus <- vir_counts_prop_melt_agg %>%$/;"	v	function:createPairedData
+vir_counts_prop_melt_agg_rel	phage_analysis.R	/^vir_counts_prop_melt_agg_rel <- vir_counts_prop_melt_agg_exus %>%$/;"	v	function:createPairedData
+vir_counts_prop_melt_meta	phage_analysis.R	/^vir_counts_prop_melt_meta <- left_join(vir_counts_prop_melt, metadata, by = c("Var2"="ID","sampl/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vir_counts_unaligned	helper_scripts/phage_quantification.R	/^vir_counts_unaligned = counts_total - apply(vir_counts, 2, sum)$/;"	g
+vir_coverage	helper_scripts/phage_quantification.R	/^vir_coverage = read.table("..\/data\/breadth_cov_collated.tbl", header=TRUE, row.names = 1, chec/;"	g
+vir_fam_host	phage_analysis.R	/^vir_fam_host <- left_join(vir_counts_prop_melt_agg[vir_counts_prop_melt_agg$Var2 %in% metadata$I/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vir_fam_host_summary	phage_analysis.R	/^vir_fam_host_summary <- vir_fam_host %>% $/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vir_fam_host_top	phage_analysis.R	/^vir_fam_host_top <- vir_fam_host_summary %>%$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vir_group	phage_analysis.R	/^  vir_group <- rownames(vir_tmp)[rowSums(vir_tmp) != 0]$/;"	v	functionVar:createPairedData.plotFamilyHeatmap.anonFunc50a7fb0d0d04
+vir_group_all	phage_analysis.R	/^vir_group_all <- do.call(cbind, vir_group_list)$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vir_group_list	phage_analysis.R	/^vir_group_list <- sapply(unique_clusters, function(x) {$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+vir_refseq	helper_scripts/create_catalogue_dataset.R	/^vir_refseq = read.table("..\/data\/refseq_annot.txt", sep = "\\t", header=FALSE)$/;"	g
+vir_tmp	phage_analysis.R	/^  vir_tmp <- vir_counts_prop_agg[,colnames(vir_counts_prop_agg) %in% df_cluster_samples_nmds$ID[/;"	v	functionVar:createPairedData.plotFamilyHeatmap.anonFunc50a7fb0d0d04
+viral_clusters_df	phage_analysis.R	/^viral_clusters_df = data.frame(row.names = rownames(vir_counts_prop_agg_meta),$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+wr	helper_scripts/clean_aragorn_output.py	/^wr = open(fout, 'w')$/;"	v
+xlab	phage_analysis.R	/^            xlab = "",$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
+xlink	figures/SRS016200_NODE_2_length_551943_cov_20.3899.svg	/^><!--Generated by GView version 1.7--><defs id="genericDefs"$/;"	n	uri:http://www.w3.org/1999/xlink
+y	phage_analysis.R	/^    y <- df_paired_richness[df_paired_richness$Location == ttest_groups$Location[i] & $/;"	v	functionVar:createPairedData.runTtest
+y1	phage_analysis.R	/^    y1 <- y$richness[y$sample_type == type1]$/;"	v	functionVar:createPairedData.runTtest
+y2	phage_analysis.R	/^    y2 <- y$richness[y$sample_type == type2]$/;"	v	functionVar:createPairedData.runTtest
+ylab	phage_analysis.R	/^            ylab = "Phage Clusters",$/;"	v	functionVar:createPairedData.plotFamilyHeatmap
