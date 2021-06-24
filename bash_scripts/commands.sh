@@ -49,6 +49,7 @@ nohup blastp -query translations_virsorter_contigs.faa -db ~/ribosomal_proteins_
 cut -f 1 ribosomal_proteins_cog_filtered_outfmt6.txt | sort | uniq | grep -o '^.*_' | sed -e 's/.$//' | sort | uniq -c | sort -k 1,1 -h > ribosomal_prot_counts.txt
 
 #GC cotent
+## Not used in paper - not sure what to do 
 infoseq virsorter_positive.fasta | grep -o 'N   .*$' | grep -o ' [0-9]\{2\}\.[0-9]\{2\}' | tr -d ' ' > gc_content.txt
 paste virsorter_positive.ids gc_content.txt > virsorter_positive_gc_content.txt
 

@@ -1,0 +1,6 @@
+Installing package into ‘/users/k1809704/R/x86_64-pc-linux-gnu-library/3.6’
+(as ‘lib’ is unspecified)
+Error in contrib.url(repos, type) : 
+  trying to use CRAN without setting a mirror
+Calls: install.packages -> startsWith -> contrib.url
+Execution halted
